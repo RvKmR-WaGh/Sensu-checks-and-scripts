@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: Ravikumar Wagh <ravikumar@helpshift.com>
+# Author: Ravikumar Wagh <wagh1.ravi@gmail.com>
 
 # set defaults
 HOST="localhost"
