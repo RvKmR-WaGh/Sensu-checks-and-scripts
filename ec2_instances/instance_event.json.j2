@@ -1,0 +1,11 @@
+{
+    "checks": {
+        "aws_instance_event_check": {
+            "handlers": ["page"],
+            "command": "check_instance_events.py -i {{aws_access_key_id}} -k {{aws_secret_access_key}}",
+            "interval": 10800,
+            "occurrences": 1,
+            "standalone": true
+        }
+    }
+}
