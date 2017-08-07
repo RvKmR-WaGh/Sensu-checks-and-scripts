@@ -1,7 +1,7 @@
 {
    "checks": {
 
-    "storm_threshold_check_stormcl02-nimbus": {
+    "storm_threshold_check": {
       "handlers": ["page"],
       "command": "/etc/sensu/plugins/check_storm_attributes_threshold.rb -h localhost -p 8080 -b failed -c 0 -t 600",
       "interval": 180,
